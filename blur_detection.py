@@ -18,7 +18,7 @@ def varianceOfLaplacian(image):
 
 
 def qualityMark(fm):
-    # return quality mark based on variance of the Laplacian, 0 is the worst,
+    # return quality mark based on variance of the Laplacian, 1 is the worst,
     # 5 is the best
     if fm < 50:
         return 1
